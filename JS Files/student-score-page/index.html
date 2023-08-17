@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Grade page</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <div class="container">
+        
+        <div class="img"></div>
+   
+        <h2>Student Grade Page</h2>
+        <h3>Student Name</h3>
+        <input type="text" id="studentName"><br><p>
+        <h3>Grade</h3>
+        <!-- <select name="grade" id="grade">
+            <option value="NA">NA</option>
+            <option value="A">A</option>
+            <option value="M">M</option>
+            <option value="E">E</option>
+        </select><br> -->
+
+        <input type="radio" id="NA" name="grade" value="NA"><label for="NA">NA</label>
+        <input type="radio" id="A" name="grade" value="A"><label for="A">A</label>
+        <input type="radio" id="M" name="grade" value="M"><label for="M">M</label>
+        <input type="radio" id="E" name="grade" value="E"><label for="E">E</label>
+        <p><button id="submitGrade">Submit Grade</button><button id="clearName">Reset</button></p>
+       
+       <!-- Show the grades in the array -->
+        <h3>Show Grades</h3>
+        <button id="btnShowGrades">Show Grades</button>
+        <label id="showGrades"></label>
+
+        <!-- Update the grades in the array -->
+        <h3>Update Grades</h3>
+        <label>Enter the name and grade to update</label><br><br>
+        Name: <input type="text" id="updateName"><br>
+        <p>Grade: <input type="text" id="updateGrade"><br>
+        <button id="changeGrade">Change Grade</button>
+
+        <!-- Remove student and their grade from the system -->
+        <h3>Delete a student and their grade</h3>
+        <label>Type the student you want to delete</label>
+        <input type="text" id="deleteStudent"><br><br>
+        <button id="btnDeleteStudent">Delete Student</button>
+
+
+           
+
+  
+</div>
+<script>
+    
+
+
+</script>
+<script src="index.js"></script>
+</body>
+</html>

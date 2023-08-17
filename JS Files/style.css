@@ -1,0 +1,21 @@
+.container{
+    width: 50%;
+    background-color: bisque;
+    margin: auto;
+    padding: 10px;
+}
+#countlabel{
+    display:block;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.buttons {
+   display:flex;
+   justify-content: space-around;
+}
+
+#myCheckBox{
+    height: 2em;
+    width:2em;
+}

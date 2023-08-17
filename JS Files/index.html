@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <!-- <p id="p1"></p>
+    
+    <label for="javascript" id="myLabel">Enter your name:</label><br>
+    <input type="text" id="myText"><br><br>
+    <button type="button"id="myButton">click to submit</button> -->
+
+    <!-- for counter program -->
+
+    <!-- <div class="container">
+            <label id="countlabel">0</label><br>
+            <div class="buttons">
+                <button id="decreaseButton">Decrease</button>
+                <button id="resetButton">Reset</button>
+
+                <button id="increaseButton">Increase</button>
+
+             </div> -->
+    
+    <!-- for random number generator -->
+    <!-- <label id="xLabel">0</label>
+    <label id="yLabel">0</label>
+    <label id="zLabel">0</label>
+    <button id="generate">generate</button> -->
+    
+
+    <!-- creating and checking checkboxes -->
+    <!-- <label for="myCheckBox">Subscribe</label><br>
+    <input type="checkbox" id="myCheckBox"><br>
+    <button id="btnSubmit">Submit entry</button><p></p> -->
+
+    <!-- Using radio buttons to get input eg card type to pay-->
+    <!-- <label for="visaBtn">Visa</label>
+    <input type="radio" name="card" id="visaBtn">
+    <label for="mastercardBtn">Mastercard</label>
+    <input type="radio" name="card" id="mastercardBtn"> 
+    <label for="payPalBtn">payPal</label>
+    <input type="radio" name="card" id="payPalBtn"><br> -->
+
+    <!-- NESTED LOOP -->
+    <!-- <label for="" id="myRectangle"></label> -->
+
+    <!-- TEMPLATE LITERAL EXAMPLE -->
+    <!-- <label id="myLabel"></label> -->
+
+    <!-- NUMBER GUESSING GAME TAGS - 5/08/2023 -->
+    <!-- <h1>Number Guessing Game</h1>
+    <p>Pick a number between 1 - 10</p>
+    <label for="">enter a guess</label>
+    <input id="guessField">
+        <input type="submit" id="submitButton"> -->
+
+    <!-- TEMPERATURE CONVERTER - 05/08/23 -->
+
+    
+    <!-- <H2>Please enter a temperture</H2>
+    <input type="text" id="textbox">
+    <p>convert to</p>
+    <input type="radio" name="temp" id="celsius"><label for="celsius">Celsius</label><br>
+    <input type="radio" name="temp" id="fahrenheit"><label for="fahrenheit">fahrenheit</label><br>
+    <input type="submit" id="submitButton"><br>
+    <label id="tempLabel"></label> -->
+
+    <!-- counter using function expressions -->
+    <!-- <label id="myLabel">0</label><br>
+    <button id="decreasebutton">Decrease</button><br>
+    <button id="increasebutton">Increase</button> -->
+<!-- 
+    <h1>To Do List</h1>
+    <label for="">Enter a new Task</label><br>
+    <input type="text" id="addTask"><br>
+    <button  id="submitTask">Submit</button>
+    <button  id="displayTasks">Print</button>
+
+    <h2>Delete a task</h2>
+    <label>enter the number of task to delete</label><br>
+    <input type="text" id="deleteTask"><br>
+    <button id="btnDeleteTask">Delete task</button>
+
+
+    <br>
+    <h2>List of tasks to do</h2>
+    <p id="listTasks"></p>
+
+ -->
+
+ <!-- VALIDATION OF DATA -->
+ <!-- <h2>JavaScript Validation</h2>
+
+ <p>Please input a number between 1 and 10:</p>
+ 
+ <input id="numb">
+ 
+ <button type="button" id="submitNumber">Submit</button>
+ 
+ <p id="demo"></p>
+
+ <p>Please enter your name</p>
+ <input id="string">
+ <button type="button" id="submitString">Submit</button>
+
+ 
+
+ 
+ <script>
+
+
+
+let userInput  = document.getElementById("numb").value
+console.log(isNaN(userInput));
+
+document.getElementById("submitNumber").onclick = function(){
+
+    if (!myFunction(userInput)){
+        console.log("Please enter a valid number")
+    }
+    else {
+        console.log("thank you for your number")
+    }
+};
+
+document.getElementById("submitString").onclick = function(){
+
+    if (validateString(userInput)){
+        console.log("Thank you for your name");
+    }
+    else console.log("Please enter valid name");
+}
+
+ function myFunction(result) {
+   // Get the value of the input field with id="numb"
+
+   let x = document.getElementById("numb").value;
+   // If x is Not a Number or less than one or greater than 10
+   let text;
+   console.log(x);
+   if (isNaN(x) || x < 1 || x > 10) {
+     return false;
+   } else {
+    return true;
+   }
+   document.getElementById("demo").innerHTML = text;
+
+ }
+
+ function validateString(userInput){
+    
+    let letters = /^[A-Za-z]+$/;
+
+    // let strEntered =  document.getElementById("string").value;
+
+    if (userInput.trim() != "" || userInput.match(letters)) {
+        
+        return true;
+    }
+    else{
+        return false;
+    }
+
+    document.getElementById("demo").innerHTML = text;
+
+ }
+ </script> -->
+
+ 
+
+    <script src="index.js"></script> 
+    
+</body>
+</html> 
